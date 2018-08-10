@@ -16,27 +16,6 @@ static Stage FirstStage;
         primaryStage.show();
         FirstStage=primaryStage;
 
-    /*    new Timer().schedule(new TimerTask() {
-
-            public void run() {
-
-                try {
-                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Second.fxml"));
-
-                    Parent root =(Parent) fxmlLoader.load();
-                    Stage mainStage = new Stage();
-                    mainStage.setTitle("");
-                    mainStage.setScene(new Scene(root));
-
-                    primaryStage.close();
-                    mainStage.show();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                //init stage
-
-            }
-        }, 3000); */
 
 }
 
